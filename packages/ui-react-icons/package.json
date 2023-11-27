@@ -18,10 +18,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react-icons"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergey-xursevich/TestTest.git"
-  },
+  "repository": "https://github.com/sergey-xursevich/TestTest.git",
   "scripts": {
     "build-icons": "svgr --no-dimensions -d build/icons lib/icons",
     "build-package": "cross-env NODE_ENV=production rollup -c",
@@ -38,5 +35,5 @@
     "rollup": "^4.6.0",
     "rollup-plugin-delete": "^2.0.0"
   },
-  "gitHead": "a50984f4bdc91702bb1dfa1f1f0aef2cb4849f18"
+  "gitHead": "71749d1878d34e2c1ba926af83808eacffb2beb2"
 }
