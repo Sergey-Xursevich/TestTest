@@ -28,14 +28,15 @@
     "prepublish": "npm run build-icons && npm run build-package"
   },
   "bugs": {
-    "url": "https://github.com/watersport/WATERSPORT-UI-Components-React/issues"
+    "url": "https://github.com/sergey-xursevich/WATERSPORT-UI-Components-React/issues"
   },
-  "homepage": "https://github.com/watersport/WATERSPORT-UI-Components-React#readme",
+  "homepage": "https://github.com/sergey-xursevich/WATERSPORT-UI-Components-React#readme",
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@rollup/plugin-babel": "^6.0.4",
     "@svgr/cli": "^8.1.0",
     "rollup": "^4.6.0",
     "rollup-plugin-delete": "^2.0.0"
-  }
+  },
+  "gitHead": "17dc8160adff8a1279ae546775c3e63261b5a72d"
 }
