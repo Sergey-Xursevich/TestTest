@@ -4,6 +4,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "install": "lerna run prepublish",
+    "pub": "lerna publish --no-private"
+  },
   "devDependencies": {
     "babel-preset-react-app": "^10.0.1",
     "cross-env": "^7.0.3",
