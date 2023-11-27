@@ -1,5 +1,5 @@
 {
-  "name": "@watersport/ui-react-icons",
+  "name": "@sergey-xursevich/ui-react-icons",
   "version": "0.0.10",
   "description": "Contains icons as React components",
   "keywords": [
@@ -35,5 +35,5 @@
     "rollup": "^4.6.0",
     "rollup-plugin-delete": "^2.0.0"
   },
-  "gitHead": "71749d1878d34e2c1ba926af83808eacffb2beb2"
+  "gitHead": "29d76cb1db5c298b8e2c18a0d9bb3f821f680fde"
 }

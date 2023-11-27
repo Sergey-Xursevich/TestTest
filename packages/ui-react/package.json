@@ -1,5 +1,5 @@
 {
-  "name": "@watersport/ui-react",
+  "name": "@sergey-xursevich/ui-react",
   "version": "0.0.10",
   "description": "Contains React components",
   "keywords": [
@@ -62,5 +62,5 @@
     "storybook": "^7.5.3",
     "typescript": "^5.3.2"
   },
-  "gitHead": "71749d1878d34e2c1ba926af83808eacffb2beb2"
+  "gitHead": "29d76cb1db5c298b8e2c18a0d9bb3f821f680fde"
 }
