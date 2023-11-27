@@ -1,0 +1,68 @@
+{
+  "name": "@watersport/ui-react",
+  "version": "0.0.0",
+  "description": "Contains React components",
+  "keywords": [
+    "react",
+    "storybook",
+    "hook"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "type": "module",
+  "types": "dist/types.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github/com/watersport/@watersport/ui-react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watersport/WATERSPORT-UI-Components-React.git"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "bugs": {
+    "url": "https://github.com/watersport/WATERSPORT-UI-Components-React/issues"
+  },
+  "homepage": "https://github.com/watersport/WATERSPORT-UI-Components-React#readme",
+  "peerDependencies": {
+    "@watersport/ui-react-icons": "file:../ui-react-icons",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-interactions": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/react": "^7.5.3",
+    "@storybook/react-webpack5": "^7.5.3",
+    "@storybook/testing-library": "^0.2.2",
+    "@types/react": "^18.2.38",
+    "@types/rollup-plugin-peer-deps-external": "^2.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.6.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "storybook": "^7.5.3",
+    "typescript": "^5.3.2"
+  }
+}
