@@ -19,7 +19,7 @@
   ],
   "repository": "https://github.com/Sergey-Xursevich/TestTest.git",
   "publishConfig": {
-    "registry": "https://npm.pkg.github/com/Sergey-Xursevich/@watersport/ui-react"
+    "registry": "https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react"
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
@@ -62,5 +62,5 @@
     "storybook": "^7.5.3",
     "typescript": "^5.3.2"
   },
-  "gitHead": "f953211bcf57df2c084201a06accef6b553d43ca"
+  "gitHead": "c8b09beef02884e8491e392dc6f80add869062cd"
 }
