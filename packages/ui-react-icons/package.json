@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/watersport/WATERSPORT-UI-Components-React.git"
+    "url": "git+https://github.com/sergey-xursevich/TestTest.git"
   },
   "scripts": {
     "build-icons": "svgr --no-dimensions -d build/icons lib/icons",
