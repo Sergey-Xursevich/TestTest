@@ -32,7 +32,7 @@ export const Button: React.FC<ButtonProps> = ({
     () =>
       ({
         light: 'bg-white',
-        dark: 'bg-neutral-800',
+        dark: 'bg-neutral-900',
         normal: 'bg-cyan-600',
       }[type]),
     [type],
