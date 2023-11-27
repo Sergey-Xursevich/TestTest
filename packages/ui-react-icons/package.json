@@ -1,0 +1,41 @@
+{
+  "name": "@watersport/ui-react-icons",
+  "version": "0.0.0",
+  "description": "Contains icons as React components",
+  "keywords": [
+    "react",
+    "icons"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "source": "build/icons/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github/com/watersport/@watersport/ui-react-icons"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watersport/WATERSPORT-UI-Components-React.git"
+  },
+  "scripts": {
+    "build-icons": "svgr --no-dimensions -d build/icons lib/icons",
+    "build-package": "cross-env NODE_ENV=production rollup -c",
+    "prepublish": "npm run build-icons && npm run build-package"
+  },
+  "bugs": {
+    "url": "https://github.com/watersport/WATERSPORT-UI-Components-React/issues"
+  },
+  "homepage": "https://github.com/watersport/WATERSPORT-UI-Components-React#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@svgr/cli": "^8.1.0",
+    "rollup": "^4.6.0",
+    "rollup-plugin-delete": "^2.0.0"
+  }
+}

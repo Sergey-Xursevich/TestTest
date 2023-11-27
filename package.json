@@ -1,0 +1,12 @@
+{
+  "name": "watersport",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "babel-preset-react-app": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "lerna": "^8.0.0"
+  }
+}
