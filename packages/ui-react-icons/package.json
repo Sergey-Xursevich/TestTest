@@ -18,16 +18,16 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react-icons"
   },
-  "repository": "https://github.com/sergey-xursevich/TestTest.git",
+  "repository": "https://github.com/Sergey-Xursevich/TestTest.git",
   "scripts": {
     "build-icons": "svgr --no-dimensions -d build/icons lib/icons",
     "build-package": "cross-env NODE_ENV=production rollup -c",
     "prepublish": "npm run build-icons && npm run build-package"
   },
   "bugs": {
-    "url": "https://github.com/sergey-xursevich/WATERSPORT-UI-Components-React/issues"
+    "url": "https://github.com/Sergey-Xursevich/TestTest/issues"
   },
-  "homepage": "https://github.com/sergey-xursevich/WATERSPORT-UI-Components-React#readme",
+  "homepage": "https://github.com/Sergey-Xursevich/TestTest#readme",
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@rollup/plugin-babel": "^6.0.4",
@@ -35,5 +35,5 @@
     "rollup": "^4.6.0",
     "rollup-plugin-delete": "^2.0.0"
   },
-  "gitHead": "29d76cb1db5c298b8e2c18a0d9bb3f821f680fde"
+  "gitHead": "f953211bcf57df2c084201a06accef6b553d43ca"
 }
