@@ -16,7 +16,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github/com/sergey-xursevich/@watersport/ui-react-icons"
+    "registry": "https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react-icons"
   },
   "repository": {
     "type": "git",
@@ -38,5 +38,5 @@
     "rollup": "^4.6.0",
     "rollup-plugin-delete": "^2.0.0"
   },
-  "gitHead": "4618b6bf274efa78d683e393ef2724cbe4def072"
+  "gitHead": "a50984f4bdc91702bb1dfa1f1f0aef2cb4849f18"
 }
