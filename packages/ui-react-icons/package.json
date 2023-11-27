@@ -16,7 +16,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github/com/watersport/@watersport/ui-react-icons"
+    "registry": "https://npm.pkg.github/com/sergey-xursevich/@watersport/ui-react-icons"
   },
   "repository": {
     "type": "git",
