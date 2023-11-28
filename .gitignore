@@ -9,12 +9,15 @@
 /.pnp
 .pnp.js
 /packages/**/node_modules
+/packages/**/dist
+/packages/**/build
 
 # testing
 /coverage
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store

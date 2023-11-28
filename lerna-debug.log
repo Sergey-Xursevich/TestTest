@@ -1,0 +1,155 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   private: false,
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '8.0.0',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v8.0.0
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath F:\WATERSPORT-UI-Components-React
+4 verbose session e1277867d7889958
+5 verbose user-agent lerna/8.0.0/node@v20.9.0+x64 (win32)
+6 silly argv {
+6 silly argv   _: [ 'publish' ],
+6 silly argv   private: false,
+6 silly argv   composed: 'publish',
+6 silly argv   lernaVersion: '8.0.0'
+6 silly argv }
+7 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+8 verbose rootPath F:\WATERSPORT-UI-Components-React
+9 info current version 0.0.15
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch feature/WAT-1069-Initialize-components-react-library
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream feature/WAT-1069-Initialize-components-react-library is behind origin/feature/WAT-1069-Initialize-components-react-library by 0 commit(s) and ahead by 1
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "v0.0.15-1-gcffa3b0" => {"lastTagName":"v0.0.15","lastVersion":"v0.0.15","refCount":"1","sha":"cffa3b0","isDirty":false}
+20 info Looking for changed packages since v0.0.15
+21 silly checking diff packages/ui-react
+22 silly found diff in packages/ui-react/package.json
+23 verbose filtered diff [ 'packages/ui-react/package.json' ]
+24 silly checking diff packages/ui-react-icons
+25 silly found diff in packages/ui-react-icons/package.json
+26 verbose filtered diff [ 'packages/ui-react-icons/package.json' ]
+27 verbose updated @sergey-xursevich/ui-react
+28 verbose updated @sergey-xursevich/ui-react-icons
+29 verbose git-describe undefined => "v0.0.15-1-gcffa3b0"
+30 silly git-describe parsed => {"lastTagName":"v0.0.15","lastVersion":"v0.0.15","refCount":"1","sha":"cffa3b0","isDirty":false}
+31 info execute Skipping releases
+32 silly lifecycle No script for "preversion" in "sergey-xursevich", continuing
+33 silly lifecycle No script for "preversion" in "@sergey-xursevich/ui-react", continuing
+34 silly lifecycle No script for "preversion" in "@sergey-xursevich/ui-react-icons", continuing
+35 verbose version @sergey-xursevich/ui-react has no lockfile. Skipping lockfile update.
+36 verbose version @sergey-xursevich/ui-react-icons has no lockfile. Skipping lockfile update.
+37 silly lifecycle No script for "version" in "@sergey-xursevich/ui-react", continuing
+38 silly lifecycle No script for "version" in "@sergey-xursevich/ui-react-icons", continuing
+39 silly lifecycle No script for "version" in "sergey-xursevich", continuing
+40 verbose version Updating root package-lock.json
+41 silly gitAdd [
+41 silly gitAdd   'packages/ui-react/package.json',
+41 silly gitAdd   'packages/ui-react-icons/package.json',
+41 silly gitAdd   'lerna.json',
+41 silly gitAdd   'package-lock.json'
+41 silly gitAdd ]
+42 silly gitCommit v0.0.16
+43 verbose git [ 'commit', '-m', 'v0.0.16' ]
+44 silly gitTag v0.0.16 git tag %s -m %s
+45 verbose git [ 'tag', 'v0.0.16', '-m', 'v0.0.16' ]
+46 silly lifecycle No script for "postversion" in "@sergey-xursevich/ui-react", continuing
+47 silly lifecycle No script for "postversion" in "@sergey-xursevich/ui-react-icons", continuing
+48 silly lifecycle No script for "postversion" in "sergey-xursevich", continuing
+49 info git Pushing tags...
+50 silly gitPush origin feature/WAT-1069-Initialize-components-react-library
+51 info publish Publishing packages to npm...
+52 notice Skipping all user and access validation due to third-party registry
+53 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+54 warn ENOLICENSE Packages @sergey-xursevich/ui-react and @sergey-xursevich/ui-react-icons are missing a license.
+54 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+54 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+55 silly getCurrentSHA
+56 verbose getCurrentSHA eead35bbd58131016c890b171c35e3f26e3855e8
+57 silly lifecycle No script for "prepublish" in "sergey-xursevich", continuing
+58 silly lifecycle No script for "prepare" in "sergey-xursevich", continuing
+59 silly lifecycle No script for "prepublishOnly" in "sergey-xursevich", continuing
+60 silly lifecycle No script for "prepack" in "sergey-xursevich", continuing
+61 verbose pack-directory packages\ui-react
+62 verbose pack-directory packages\ui-react-icons
+63 silly lifecycle No script for "prepublish" in "@sergey-xursevich/ui-react", continuing
+64 silly lifecycle "prepublish" starting in "@sergey-xursevich/ui-react-icons"
+65 info lifecycle @sergey-xursevich/ui-react-icons@0.0.16~prepublish: @sergey-xursevich/ui-react-icons@0.0.16
+66 silly lifecycle No script for "prepare" in "@sergey-xursevich/ui-react", continuing
+67 silly lifecycle No script for "prepublishOnly" in "@sergey-xursevich/ui-react", continuing
+68 silly lifecycle No script for "prepack" in "@sergey-xursevich/ui-react", continuing
+69 silly lifecycle No script for "postpack" in "@sergey-xursevich/ui-react", continuing
+70 verbose packed packages\ui-react
+71 silly lifecycle "prepublish" finished in "@sergey-xursevich/ui-react-icons"
+72 silly lifecycle No script for "prepare" in "@sergey-xursevich/ui-react-icons", continuing
+73 silly lifecycle No script for "prepublishOnly" in "@sergey-xursevich/ui-react-icons", continuing
+74 silly lifecycle No script for "prepack" in "@sergey-xursevich/ui-react-icons", continuing
+75 silly lifecycle No script for "postpack" in "@sergey-xursevich/ui-react-icons", continuing
+76 verbose packed packages\ui-react-icons
+77 silly lifecycle No script for "postpack" in "sergey-xursevich", continuing
+78 verbose publish @sergey-xursevich/ui-react
+79 verbose publish @sergey-xursevich/ui-react-icons
+80 silly FetchError: request to https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react/@sergey-xursevich%2fui-react failed, reason: getaddrinfo ENOTFOUND npm.pkg.github
+80 silly     at ClientRequest.<anonymous> (F:\WATERSPORT-UI-Components-React\node_modules\npm-registry-fetch\node_modules\minipass-fetch\lib\index.js:130:14)
+80 silly     at ClientRequest.emit (node:events:514:28)
+80 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+80 silly     at TLSSocket.emit (node:events:526:35)
+80 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+80 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+80 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+80 silly  FetchError: request to https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react/@sergey-xursevich%2fui-react failed, reason: getaddrinfo ENOTFOUND npm.pkg.github
+80 silly     at ClientRequest.<anonymous> (F:\WATERSPORT-UI-Components-React\node_modules\npm-registry-fetch\node_modules\minipass-fetch\lib\index.js:130:14)
+80 silly     at ClientRequest.emit (node:events:514:28)
+80 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+80 silly     at TLSSocket.emit (node:events:526:35)
+80 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+80 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+80 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+80 silly   code: 'ENOTFOUND',
+80 silly   errno: 'ENOTFOUND',
+80 silly   syscall: 'getaddrinfo',
+80 silly   hostname: 'npm.pkg.github',
+80 silly   type: 'system'
+80 silly }
+81 warn notice Package failed to publish: @sergey-xursevich/ui-react
+82 error ENOTFOUND request to https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react/@sergey-xursevich%2fui-react failed, reason: getaddrinfo ENOTFOUND npm.pkg.github
+83 error errno "ENOTFOUND" is not a valid exit code - exiting with code 1
+84 silly FetchError: request to https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react-icons/@sergey-xursevich%2fui-react-icons failed, reason: getaddrinfo ENOTFOUND npm.pkg.github
+84 silly     at ClientRequest.<anonymous> (F:\WATERSPORT-UI-Components-React\node_modules\npm-registry-fetch\node_modules\minipass-fetch\lib\index.js:130:14)
+84 silly     at ClientRequest.emit (node:events:514:28)
+84 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+84 silly     at TLSSocket.emit (node:events:526:35)
+84 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+84 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+84 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+84 silly  FetchError: request to https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react-icons/@sergey-xursevich%2fui-react-icons failed, reason: getaddrinfo ENOTFOUND npm.pkg.github
+84 silly     at ClientRequest.<anonymous> (F:\WATERSPORT-UI-Components-React\node_modules\npm-registry-fetch\node_modules\minipass-fetch\lib\index.js:130:14)
+84 silly     at ClientRequest.emit (node:events:514:28)
+84 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+84 silly     at TLSSocket.emit (node:events:526:35)
+84 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+84 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+84 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+84 silly   code: 'ENOTFOUND',
+84 silly   errno: 'ENOTFOUND',
+84 silly   syscall: 'getaddrinfo',
+84 silly   hostname: 'npm.pkg.github',
+84 silly   type: 'system'
+84 silly }
+85 warn notice Package failed to publish: @sergey-xursevich/ui-react-icons
+86 error ENOTFOUND request to https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react-icons/@sergey-xursevich%2fui-react-icons failed, reason: getaddrinfo ENOTFOUND npm.pkg.github
+87 error errno "ENOTFOUND" is not a valid exit code - exiting with code 1
+88 error FetchError: request to https://npm.pkg.github/com/Sergey-Xursevich/@sergey-xursevich/ui-react/@sergey-xursevich%2fui-react failed, reason: getaddrinfo ENOTFOUND npm.pkg.github
+88 error     at ClientRequest.<anonymous> (F:\WATERSPORT-UI-Components-React\node_modules\npm-registry-fetch\node_modules\minipass-fetch\lib\index.js:130:14)
+88 error     at ClientRequest.emit (node:events:514:28)
+88 error     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+88 error     at TLSSocket.emit (node:events:526:35)
+88 error     at emitErrorNT (node:internal/streams/destroy:151:8)
+88 error     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
