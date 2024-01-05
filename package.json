@@ -14,6 +14,6 @@
     "lerna": "^8.0.0"
   },
   "dependencies": {
-    "@watersport/ui-react": "^0.0.11"
+    "@watersport/ui-react": "^0.0.15"
   }
 }
