@@ -12,5 +12,8 @@
     "babel-preset-react-app": "^10.0.1",
     "cross-env": "^7.0.3",
     "lerna": "^8.0.0"
+  },
+  "dependencies": {
+    "@watersport/ui-react": "^0.0.11"
   }
 }
