@@ -1,7 +1,6 @@
 version: 2
 registries:
   npm-registry:
-    replaces-base: true
     type: npm-registry
     url: https://npm.pkg.github.com/watersport
     token: ${{secrets.DEPENDABOT_TOKEN}}
