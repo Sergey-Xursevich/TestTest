@@ -12,7 +12,7 @@ updates:
       - npm-registry
     schedule:
       interval: "daily"
-    target-branch: "develop"
+    target-branch: "feature/WAT-1069-Initialize-components-react-library"
     open-pull-requests-limit: 5
     allow:
       - dependency-name: "@watersport*"
